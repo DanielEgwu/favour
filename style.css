@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    background: url(assets/header_bg.png);
+    height: 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.logo img{
+    border-top: 16px solid #b70001 ;
+    border-bottom: 16px solid #b70001 ;
+    border-left: 5px solid #b70001;
+    border-right: 5px solid #b70001;
+}
+.header a {
+    color: #b70001;
+    text-decoration: none;
+}
+
+.header-bg {
+    background: url(assets/page_grad.png);
+    height: 40px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content img {
+    margin-left: 2px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+
+}
+
+.navbar ul li {
+
+    margin: 10px;
+    justify-content: end;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #b70001;
+}
+
+.navbar ul {
+    display: flex;
+    /* text-align: center; */
+    justify-content: flex-end;
+    margin: 40px;
+    font-size: 20px;
+}
+
+a:hover,
+.navbar ul li a:hover {
+    color: #00366b;
+    border-bottom: 1px solid #b70001;
+}
+
+.section {
+    margin: 20px;
+    display: flex;
+
+}
+
+/* .main{} */
+.banner {
+    background: url(assets/image1.jpg);
+    height: 25rem;
+    width: 80rem;
+    margin: 20px;
+}
+
+.image {
+    background: url(assets/image1.jpg);
+    height: 31rem;
+    width: 26.1rem;
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.section .content {
+    background: url(assets/dark\ background.jpg);
+    height: 4rem;
+}
+
+.section .content h4 {
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+.bg-top {
+    display:flex;
+    margin: 20px;
+}
+
+.bg-1 {
+    background: url(assets/bg_pattern.png);
+    height: 15rem !important;
+    width: 30rem;
+    margin: 0.3rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bg-2 {
+    background: url(assets/content_plane_bg.png);
+   /* transform: scaleY(1000px); */
+    height: 20rem;
+    
+}
+
+.image-bg{
+    background: url(assets/image1.jpg);
+    height: 5rem;
+    width: 20rem;
+    margin: 4rem;
+}
