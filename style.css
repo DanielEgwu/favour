@@ -76,23 +76,23 @@ a:hover,
 
 /* .main{} */
 .banner {
-    background: url(assets/image1.jpg);
+    background: url(assets/image2.jpg);
     height: 25rem;
-    width: 80rem;
+    width: 100%;
     margin: 20px;
 }
 
 .image {
     background: url(assets/image1.jpg);
     height: 31rem;
-    width: 26.1rem;
+    width: 100%;
     margin: 0.3rem;
     display: flex;
     flex-direction: column-reverse;
 }
 
 .section .content {
-    background: url(assets/dark\ background.jpg);
+    background: url(assets/dark_background.jpg);
     height: 4rem;
 }
 
@@ -110,7 +110,7 @@ a:hover,
 .bg-1 {
     background: url(assets/bg_pattern.png);
     height: 15rem !important;
-    width: 30rem;
+    width: 26rem;
     margin: 0.3rem;
     display: flex;
     flex-direction: column-reverse;
@@ -119,13 +119,13 @@ a:hover,
 .bg-2 {
     background: url(assets/content_plane_bg.png);
    /* transform: scaleY(1000px); */
-    height: 20rem;
+    height: 10rem;
     
 }
 
 .image-bg{
-    background: url(assets/image1.jpg);
-    height: 5rem;
+    /* background: url(assets/image1.jpg); */
+    /* height: 5rem; */
     width: 20rem;
     margin: 4rem;
 }
